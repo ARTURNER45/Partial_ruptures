@@ -1331,7 +1331,12 @@ class Eqv:
     
     
     def Figure_2(self,irefo,itaro,index=10):
-        
+        """
+        Recrate figure 2 which plots all events in a group of co-located events
+        :param      ifero: reference repeating earthquake
+        :param      itaro: identified co-located event
+        :param      index: index of induvidual repeating event to plot
+        """
         plt.rcParams.update({'font.size': 60})
         irefo_repeat = np.array([irefo[x] for x in range(0,len(itaro)) if self.mpref[irefo[x]] + 0.3   >= self.mpref[itaro[x]]  >= self.mpref[irefo[x]] - 0.3 ])
         itaro_repeat = np.array([itaro[x] for x in range(0,len(itaro)) if self.mpref[irefo[x]] + 0.3   >= self.mpref[itaro[x]]  >= self.mpref[irefo[x]] - 0.3 ])
