@@ -6,7 +6,7 @@ A simple tutorial to search for repeating earthquakes and partial ruptures of th
 # Definitions
 
 **Repeating earthquake** an earthquake which occurs within 1 rupture radius of another event and also has a magnitude 
-within 0.3 magnitude units 
+within 0.3 magnitude units.
 
 **Partial rupture** an earthquake that occurs within 1 rupture radius of a previously identified repeating earthquake 
 but has a magnitude that is smaller than the co-located repeating earthquake. 
