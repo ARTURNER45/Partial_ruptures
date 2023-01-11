@@ -1,4 +1,4 @@
-# Partial_ruptures
+# Partial ruptures
 Example code to find repeating earthquakes and partial ruptures from the NCEC earthquake catalog.
 
 A simple tutorial to search for repeating earthquakes and partial ruptures of the NCEC earthquake catalog (Waldhauser and Schaff, 2008; Schaff and Waldhauser, 2005; Waldhauser, 2013; https://www.ldeo.columbia.edu/~felixw/NCAeqDD/) using a simple locaiton based criteria. In this tutorial you will locate repeating earthquakes and partial ruptures and then plot the group of co-located events. 
