@@ -24,7 +24,7 @@ For a full description of the methodology please see Turner et al. (2023).
 The dependencies to run this code are provided in the yml. To create this conda enviroment run: 
 
 ```
-conda install --file partial_ruptures.yml 
+conda env create --name partial_ruptures --file=partial_ruptures.yml
 ```
 At the top of the script eqcat_pandas_GITHUB.py you will also have to set the path to the DATA 
 
